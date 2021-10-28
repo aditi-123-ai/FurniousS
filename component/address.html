@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Profile</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="Bootstrap\css\bootstrap.min.css" type="text/css">
+        <script type="text/javascript" src="Bootstrap\js\jquery-3.6.0.min.js"></script>
+        <script type="text/javascript" src="Bootstrap\js\bootstrap.min.js"></script>
+        <link rel="apple-touch-icon" sizes="180x180" href="../Images/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="../Images/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../Images/favicon-16x16.png">
+<link rel="manifest" href="../Images/favicon.ico">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="Lobster-Regular.ttf">
+
+        <link rel="stylesheet" href="../css/profile.css">
+    
+    </head>
+
+    <body>
+
+        <div class="container">
+            <div class="jumbotron">
+                <div class="account-page">
+                    <div class="profile">
+                        <div class="profile-detail">
+                            <img src="../Images/MyPic.png">
+                            <h2 style="font-family: 'Lobster', cursive;">Riddhi S</h2>
+                            <p style="font-family:Montserrat">riddhis@gmail.com</p>
+                        </div>
+                        <ul>
+                            <li><a href="profile.html" class="active">Account <span>></span></a></li>
+                            <li><a href="changepass.html">Change Password <span>></span></a></li>
+                            <li><a href="address.html">Address <span>></span></a></li>
+                            <li><a href="orders.html">My Orders <span>></span></a></li>
+                            <li><a href="deleteacc.html">Delete Account <span>></span></a></li>
+                            <li><a href="logout.html">Logout <span>></span></a></li>
+                        </ul>
+                    </div>
+                    <div class="account-detail">
+                        <h2 style="font-family: 'Lobster', cursive;">ADDRESS</h2>
+                        <div class="col-50">
+                           
+                            <label style="font-family:Montserrat" for="fname"><i class="fa fa-user"></i> Full Name</label>
+                            <input style="font-family:Montserrat" type="text" id="fname" name="fullname" placeholder="Rahul Sharma" required><br>
+
+                            <label style="font-family:Montserrat" for="email"><i class="fa fa-envelope"></i> Email</label>
+                            <input style="font-family:Montserrat" type="text" id="email" name="email" placeholder="rahul.sharna@gmail.com" required><br>
+
+                            <label style="font-family:Montserrat" for="adr"><i class="fa fa-address-card-o"></i> Address</label>
+                            <input style="font-family:Montserrat" type="text" id="adr" name="address" placeholder="Rose appt, Sant Gadge Maharaj Chowk" required><br>
+
+                            <label style="font-family:Montserrat" for="city"><i class="fa fa-institution"></i> City</label>
+                            <input style="font-family:Montserrat" type="text" id="city" name="city" placeholder="Mumbai" required><br>
+
+                            <label style="font-family:Montserrat" for="state"><i class="fa fa-map-marker"></i>State</label>
+                            <select style="font-family:Montserrat" id="state" name="statelist">
+                                <option style="font-family:Montserrat" value="maharashtra">Maharashtra</option>
+                                <option style="font-family:Montserrat" value="gujrat">Gujrat</option>
+                                <option style="font-family:Montserrat" value="chhattisgarh">Chhattisgarh</option>
+                                <option style="font-family:Montserrat" value="telengana">Telangana</option>
+                                <option style="font-family:Montserrat" value="karnataka">Karnataka</option>
+                                <option style="font-family:Montserrat" value="goa">Goa</option>
+                              </select>
+
+                            <label style="font-family:Montserrat" for="zip"><i class="fa fa-location-arrow"></i>Pin Code</label>
+                            <input style="font-family:Montserrat" type="text" id="zip" name="zip" placeholder="400 001"required>
+
+                            <button style="background-color: #f8a6aa; font-family:Montserrat; font-weight: bold;" class="btn">Update Address</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> 
+
+
+    </body>
+</html>

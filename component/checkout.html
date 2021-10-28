@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="../Images/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="../Images/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../Images/favicon-16x16.png">
+<link rel="manifest" href="../Images/favicon.ico">
+    <link rel="stylesheet" href="../css/checkout.css">
+    <title>checkout page</title>
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+</head>
+<body>
+    <section class="checkout">
+        
+            <div class="main">
+                <div class="checkout__details">
+                    <div class="checkout__info">
+                        <div class="checkout__yourDetail">
+                            <h2 class="title">Your Details</h2>
+                            <div class="name info">
+                                <i class="uil uil-user button">
+                                    <input type="text" placeholder= "Frist Name" />
+                                </i>
+                                <i class="uil uil-user button lastname">
+                                    <input type="text" placeholder="Last Name">
+                                </i>
+                            </div>
+                            <div class="name tel mobile">
+                                <i class="uil uil-phone button">
+                                    <input type="tel" placeholder= "Phone Number" />
+                                </i>
+                                <i class="uil uil-envelope button lastname">
+                                    <input type="email" placeholder="Email">
+                                </i>
+                                
+                            </div>
+                        </div>
+                        <div class="checkout__yourDetail">
+                            <h2 class="title delivery">Delivery Details</h2>
+                            <div class="name address">
+                                <textarea placeholder="📍Address" rows="4" cols="50" name="address" style="border: none; background-color: rgb(252, 216, 216);
+                                margin-top: 130px; width: 100%; border-radius: 30px; height: 20vh; padding: 10px; font-size: 1rem; outline: none;"></textarea>
+                            </div>
+                        </div>
+                        <div class="checkout__Add checkout__yourDetail">
+                            <img class="img" src="https://assets.visme.co/templates/banners/thumbnails/i_Furniture-Coupon_full.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="checkout__order">
+                    <h2 class="title"><i class="uil uil-shopping-cart-alt"></i>Order Summary</h2>
+
+                    <div class="checkout__container">
+                        <div class="checkout__container--top">
+                            <h4>Item Details</h4>
+                            <h4>Month</h4>
+                            <h4>Price</h4>
+                        </div>
+                        <div class="checkoutItem">
+                            <div class="checkout__container--middle">
+                                <div class="remove__item">
+                                    <i class="uil uil-times-circle"></i>
+                                </div>
+                            <div class="remove__itemDetails">
+                                <p class="cart-title-name">Allen Beedroom</p>
+                                <div class="add_no">
+                                    <i class="uil uil-plus-circle"></i>
+                                    <input type="number" class="cart-quantity-input" value="1">
+                                    <i class="uil uil-minus-circle"></i>
+                                </div>
+                                <p class="money">$120</p>
+                            </div>
+                            </div>
+                            <div class="checkout__container--middle">
+                                <div class="remove__item">
+                                    <i class="uil uil-times-circle"></i>
+                                </div>
+                            <div class="remove__itemDetails">
+                                <p class="cart-title-name">Allen Queen</p>
+                                <div class="add_no">
+                                    <i class="uil uil-plus-circle"></i>
+                                    <input type="number" class="cart-quantity-input" value="2">
+                                    <i class="uil uil-minus-circle"></i>
+                                </div>
+                                <p class="money">$120</p>
+                            </div>
+                            </div>
+                        </div>
+                    
+                        <div class="chechout__container--end">
+                            <div class="total_price">
+                                <h2>Total Price</h2>
+                                <p class="cart-total-price">$120</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="checkout__button">
+                        <button>
+                            Checkout <i class="uil uil-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <script src="../js/bed.js"></script>
+    <script src="../js/living.js"></script>
+    <script src="../js/kids.js"></script>
+    <script src="../js/dinning.js"></script>
+    <script src="../js/work.js"></script>
+    <script src="../js/storage.js"></script>
+</body>
+</html>
